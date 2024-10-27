@@ -15,7 +15,7 @@ image = Image.open("Reader/Robotpdf.jpg")
 st.image(image, caption="robotomorrow")
 
 with st.sidebar:
-    st.subheader("Este Agente, te ayudará a realizar algo de análisis sobre el PDF cargado")
+    st.subheader(Hermano lo voy a ayudar con el pdf que me va a cargar")
 
 ke = st.text_input('Ingresa tu Clave')
 os.environ['OPENAI_API_KEY'] = ke
