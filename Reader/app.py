@@ -16,7 +16,7 @@ from langchain.callbacks import get_openai_callback
 #from pathlib import Path
 
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
-image = Image.open("robotomorrow.jpg")
+image = Image.open("Robotpdf.jpg")
 st.image(image,caption = "robotomorrow")
 with st.sidebar:
    st.subheader("Este Agente, te ayudará a realizar algo de análisis sobre el PDF cargado")
