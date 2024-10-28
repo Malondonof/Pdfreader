@@ -12,7 +12,7 @@ from langchain.callbacks import get_openai_callback
 
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
 image = Image.open("Reader/Robotpdf.jpg")
-st.image(image, caption="robotomorrow")
+
 
 with st.sidebar:
     st.subheader(Hermano lo voy a ayudar con el pdf que me va a cargar")
